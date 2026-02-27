@@ -11,5 +11,5 @@ def pressao_hidrostatica(altura_m: float) -> float:
     return p_bar
 
 if __name__ == "__main__":
-    h = 3.0
+    h = 4.0 * 2
     print(f"Para h={h} m, pressão ≈ {pressao_hidrostatica(h):.3f} bar")
