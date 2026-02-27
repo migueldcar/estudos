@@ -2,6 +2,7 @@ def pressao_hidrostatica(altura_m: float) -> float:
     """
     Retorna pressão hidrostática aproximada em bar (gauge),
     considerando água e g ≈ 9,81 m/s².
+    Teste
     """
     rho = 1000  # kg/m³
     g = 9.81    # m/s²
